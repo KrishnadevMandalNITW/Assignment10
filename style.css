@@ -74,9 +74,17 @@ button:focus-within, button:hover{
     color: white;
 }
 
+#moviesList li{
+    background-color: rgba(0, 0, 0, 0.277);
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 5px;
+}
+
 .movies_list{
     list-style-position: inside;
     margin-left: 20px;
     padding: 10px;
 
 }
+
