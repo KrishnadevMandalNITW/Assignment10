@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url("./backgroun.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 50vw;
+    outline: 4px solid white;
+    outline-offset: 10px;
+    box-shadow: 0px 20px 80px rgb(253, 1, 198), 0px -20px 80px rgb(1, 144, 253);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.105);
+}
+
+button{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(3, 232, 248);
+}
+
+#clrLst{
+    color: white;
+    background-color: rgba(255, 77, 0, 0.735);
+}
+#clrLst:focus-within, #clrLst:hover{
+    box-shadow: 0px 0px 15px rgba(255, 77, 0, 0.735);
+}
+
+button:focus-within, button:hover{
+    box-shadow: 0px 0px 15px rgb(3, 232, 248);
+}
+
+.container>h2{
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    color:rgb(99, 186, 244);
+    font-family: cursive;
+    text-shadow: 0px 0px 10px rgb(205, 50, 184);
+}
+
+.inner_container{
+    margin: 3rem 0 2rem 0;
+}
+
+.item_align{
+    text-align: center;
+}
+.input_movie{
+    border: none;
+    box-shadow: 0px 0px 2px black;
+    padding: 8px;
+    border-radius: 50px;
+}
+.input_movie:focus-within{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px black;
+}
+
+.total_movie{
+    padding-top: 10px;
+    color: white;
+}
+
+.movies_list{
+    list-style-position: inside;
+    margin-left: 20px;
+    padding: 10px;
+}
